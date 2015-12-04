@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'PagesController@home');
+Route::get('/{id}', 'PagesController@showArticle')->where('id', '[0-9]+');

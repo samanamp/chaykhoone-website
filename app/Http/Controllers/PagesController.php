@@ -23,4 +23,9 @@ class pagesController extends Controller
 //        return $articles;
         return view('pages.home', compact('articles'));
     }
+
+    public function showArticle($id){
+        $article = Article::findOrFail($id);
+        return view('pages.post', compact('article'));
+    }
 }
