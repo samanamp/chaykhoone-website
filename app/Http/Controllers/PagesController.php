@@ -19,7 +19,7 @@ class pagesController extends Controller
 //        $article->body = "با یه سری کار خوب میشه با زندگی کلی حال کرد";
 //        $article->thumb_image = 'img/contact-bg.jpg';
 //        $article->save();
-        $articles = Article::all();
+        $articles = Article::all()->sortByDesc('id');
 //        return $articles;
         return view('pages.home', compact('articles'));
     }
