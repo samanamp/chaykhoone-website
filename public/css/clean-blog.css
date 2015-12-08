@@ -22,8 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'iransans';
 }
 a {
   color: #404040;
@@ -47,19 +46,22 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
+  background-color: #2e3436;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'byekan';
 }
 .navbar-custom .navbar-brand {
+  font-family: iransans;
+  letter-spacing: 1px;
   font-weight: 800;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 800;
   letter-spacing: 1px;
 }
@@ -69,7 +71,7 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: #DCBD88;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,

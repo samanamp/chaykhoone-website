@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'byekan';
+    src: url('../fonts/Yekan.ttf')
+        format('truetype');
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url('../fonts/iransans.eot')
+        format('eot');
+    src: url('../fonts/iransans.woff')
+        format('woff');
+}

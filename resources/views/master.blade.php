@@ -14,6 +14,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/clean-blog.css" rel="stylesheet">
@@ -22,7 +23,7 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
+    <link href='https://fonts.googleapis.com/css?family=Lateef&subset=arabic,latin' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -45,7 +46,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">چـــــــایخونه</a>
+            <a class="navbar-brand" href="/" >چـــــــایخونه</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,19 +67,23 @@
 
 <!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->
+
 <header class="intro-header" style="background-image: url(@yield('intro-header-image'))">
-    <div class="container">
+<div style="background-color: rgba(0,0,0,.5)">
+    <div class="container" >
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
+                <div class="site-heading" >
                     <h1>@yield('title')</h1>
                     <hr class="small">
-                    <span class="subheading">@yield('subtitle')</span>
+                    <span class="subheading" style="font-family: 'Lateef'">@yield('subtitle')</span>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </header>
+
 
 <!-- Main Content -->
 @yield('content')
@@ -116,7 +121,7 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">میتونید از نوشته های ما استفاده کنید؛ فقط یه گوشه اسم و آدرس وبسایت ما رو بنویسید :)</p>
+                <p class="copyright text-muted" style="font-family: Tahoma;">میتونید از نوشته های ما استفاده کنید؛ فقط یه گوشه اسم و آدرس وبسایت ما رو بنویسید :)</p>
             </div>
         </div>
     </div>
