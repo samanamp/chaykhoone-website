@@ -17,5 +17,5 @@
         </div>
     </article>
 
-    <hr>
+    {{--<hr>--}}
 @stop

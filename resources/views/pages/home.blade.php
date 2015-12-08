@@ -29,7 +29,7 @@
 
                 </div>
                     </a>
-                <hr>
+                {{--<hr>--}}
                 @endforeach
                 <!-- Pager -->
                 {{--<ul class="pager">--}}

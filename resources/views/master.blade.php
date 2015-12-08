@@ -46,7 +46,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/" >چـــــــایخونه</a>
+            <span class="navbar-brand" >چـــــــایخونه</span>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -88,7 +88,7 @@
 <!-- Main Content -->
 @yield('content')
 
-<hr>
+{{--<hr>--}}
 
 <!-- Footer -->
 <footer>
@@ -121,7 +121,7 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted" style="font-family: Tahoma;">میتونید از نوشته های ما استفاده کنید؛ فقط یه گوشه اسم و آدرس وبسایت ما رو بنویسید :)</p>
+                <p class="copyright text-muted" style="font-family: iransans;">میتونید از نوشته های ما استفاده کنید؛ فقط یه گوشه اسم و آدرس وبسایت ما رو بنویسید :)</p>
             </div>
         </div>
     </div>

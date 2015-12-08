@@ -76,7 +76,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #DCBD88;
   }
   .navbar-custom .nav li a {
     color: white;
@@ -84,7 +84,7 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(207, 207, 207, 0.74);
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -212,6 +212,10 @@ hr.small {
     font-size: 30px;
   }
 }
+
+.intro-header > .post-preview > a:hover {
+  text-decoration: none;
+}
 .post-preview > a {
   color: #404040;
 }
@@ -221,11 +225,13 @@ hr.small {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
+  text-decoration: none;
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 .post-preview > a > .post-subtitle {
+  text-decoration: none;
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
